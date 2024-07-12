@@ -46,7 +46,7 @@ export const ImageBoxStyleTwo: React.FC<ImageTextProps> = ({
           </div>
         </div>
       ) : (
-        <div className="container xl:flex lg:flex md:flex flex flex-wrap  items-center xl:bg-transparent lg:bg-transparent md:bg-[#F4F9FF] bg-[#F4F9FF]  xl:bg-[linear-gradient(90deg,#FFFFFF_30%,#F4F9FF_30%)] lg:bg-[linear-gradient(90deg,#FFFFFF_30%,#F4F9FF_30%)] md:bg-[linear-gradient(90deg,#FFFFFF_30%,#F4F9FF_30%)] pb-[50px] xl:pt-[20px] lg:pt-[20px] md:pt-[20px] pt-[50px]">
+        <div className="container xl:flex lg:flex md:flex flex flex-wrap  items-center xl:bg-transparent lg:bg-transparent md:bg-[#F4F9FF] bg-[#F4F9FF]  xl:bg-[linear-gradient(90deg,#FFFFFF_30%,#F4F9FF_30%)] lg:bg-[linear-gradient(90deg,#FFFFFF_30%,#F4F9FF_30%)] md:bg-[linear-gradient(90deg,#FFFFFF_30%,#F4F9FF_30%)] pb-[50px] xl:pt-[20px] lg:pt-[20px] md:pt-[20px] pt-[50px] xl:space-y-0 lg:space-y-0 md:space-y-0 space-y-5">
           <div className="relative xl:w-[50%] lg:w-[50%] md:w-[50%] w-full">
             {/* <Image
               className="hidden xl:block lg:block md:block absolute xl:left-[-66px] lg:left-[-7px] md:left-[-7px] bottom-[-68px] "
