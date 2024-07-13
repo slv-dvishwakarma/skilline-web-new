@@ -25,7 +25,9 @@ const Page = () => {
             </Breadcrumb>
             <SkilliGap />
             {/* <GuidingPrinciple /> */}
+            <div className='my-[50px]'>
             <OurVision />
+            </div>
             <Skill_Gap_india />
             <div className="container pt-[100px] pb-[80px] flex flex-col md:flex-row  flex-col-reverse">
           <div className="md:w-1/2 w-full xl:pt-0 lg:pt-0 md:pt-0 pt-5">

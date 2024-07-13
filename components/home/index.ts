@@ -16,3 +16,4 @@ export * from "./Pillars";
 export * from "./AccordionPageTemplate";
 export * from "./HomeContactUs";
 export * from "./Empowering";
+export * from "./CallAction"

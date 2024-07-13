@@ -17,8 +17,10 @@ import {
   HomeContactUs,
   AccordionPageTemplate,
   Empowering,
+  CallAction,
 } from "@/components/home";
 import { Pillars } from "@/components/home-v2";
+import { States } from "@/components/home/States";
 
 export default function Home() {
   return (
@@ -27,8 +29,11 @@ export default function Home() {
       <OurApproach />
       {/* <OurVision /> */}
       <Empowering />
-      <OurImpact />
+      <CallAction />
+      <States />
       <About />
+      <OurImpact />
+      
       
       <Policies />
       <GuidingPrinciple />
