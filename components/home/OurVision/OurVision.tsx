@@ -3,7 +3,7 @@ import React from "react";
 
 export const OurVision = () => {
   return (
-    <div className="md:pt-[150px] pt-[50px] md:pb-[120px]">
+    <div className="md:pt-[30px] pt-[10px] md:pb-[10px]">
       <ImageBox
         data={{
           image: "/image/images/Our Vision.jpeg",

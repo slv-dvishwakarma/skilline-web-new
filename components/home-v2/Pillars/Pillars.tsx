@@ -76,15 +76,15 @@ export const Pillars = () => {
         <div className="md:w-1/2 w-full">
           <div className="flex justify-center w-full">
             <div className="relative w-[600px] mx-auto inline-flex items-center justify-center">
-              <Image
+              {/* <Image
                 width={900}
                 height={900}
                 alt=""
-                src="/images/shape-ellipse.png"
+                src="/image/shape-ellipse.png"
                 className="absolute left-0 top-0 right-0 bottom-0 m-auto w-[70%] h-[70%]"
-              />
+              /> */}
               <Image
-                src="/images/amtanirbhar.png"
+                src="/image/images/5-pillar.jpg"
                 className="relative w-full h-full pulse-2"
                 width={900}
                 height={900}

@@ -16,6 +16,7 @@ import {
   Contact,
   HomeContactUs,
   AccordionPageTemplate,
+  Empowering,
 } from "@/components/home";
 import { Pillars } from "@/components/home-v2";
 
@@ -24,10 +25,11 @@ export default function Home() {
     <main>
       <HeroSlider />
       <OurApproach />
-      <About />
-      <OurVision />
-      
+      {/* <OurVision /> */}
+      <Empowering />
       <OurImpact />
+      <About />
+      
       <Policies />
       <GuidingPrinciple />
       <Pillars />

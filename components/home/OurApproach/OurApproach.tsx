@@ -3,7 +3,7 @@ import React from "react";
 
 export const OurApproach = () => {
   return (
-    <div className="md:pb-[100px] md:mt-[30px]">
+    <div className="md:pb-[10px] md:mt-[30px]">
       <ImageBox
         data={{
           image: "/image/images/our_approach.jpg",

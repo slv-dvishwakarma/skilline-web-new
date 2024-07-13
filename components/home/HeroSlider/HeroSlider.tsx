@@ -15,9 +15,9 @@ export const HeroSlider = () => {
       //   target: "_self",
       // },
       image: {
-        src: "/image/Slider/1.png",
-        width: 400,
-        height: 428,
+        src: "/image/images/Empowering-Future-Generations.jpg",
+        width: 1015,
+        height: 735,
         alt: "",
       },
     },
@@ -31,9 +31,9 @@ export const HeroSlider = () => {
       //   target: "_self",
       // },
       image: {
-        src: "/image/Slider/2.png",
-        width: 400,
-        height: 428,
+        src: "/image/images/slider-atma-nirbhar.jpg",
+        width: 1015,
+        height: 735,
         alt: "",
       },
     },
@@ -47,28 +47,28 @@ export const HeroSlider = () => {
       //   target: "_self",
       // },
       image: {
-        src: "/image/Slider/3.png",
-        width: 400,
-        height: 428,
+        src: "/image/images/indusry-ready-skills.jpg",
+        width: 1015,
+        height: 735,
         alt: "",
       },
-    },
-    {
-      preTitle: "Envisioning the future",
-      title: "Empowering Individual Potential",
-      description: `Our vision is to cultivate personalized learning experiences that unleash individual potential, fostering nationwide prosperity and growth`,
-      // button: {
-      //   label: "Explore Solution",
-      //   links: "",
-      //   target: "_self",
-      // },
-      image: {
-        src: "/images/banner-5.png",
-        width: 400,
-        height: 428,
-        alt: "",
-      },
-    },
+    }
+    // {
+    //   preTitle: "Envisioning the future",
+    //   title: "Empowering Individual Potential",
+    //   description: `Our vision is to cultivate personalized learning experiences that unleash individual potential, fostering nationwide prosperity and growth`,
+    //   // button: {
+    //   //   label: "Explore Solution",
+    //   //   links: "",
+    //   //   target: "_self",
+    //   // },
+    //   image: {
+    //     src: "/images/banner-5.png",
+    //     width: 400,
+    //     height: 428,
+    //     alt: "",
+    //   },
+    // },
   ];
 
   return <Slider data={sliderData} />;

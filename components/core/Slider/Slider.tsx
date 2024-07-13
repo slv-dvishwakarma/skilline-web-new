@@ -83,10 +83,10 @@ export const Slider = ({ data }: SliderType) => {
               <CarouselItem key={index}>
                 <div className="md:h-[600px] md:pb-[80px] h-[500px] bg-gradient-to-b  from-gray-50 via-white to-gray-100 flex items-center py-10 md:py-0">
                   <div className="container">
-                    <div className="flex justify-between md:flex-row flex-col gap-10 md:gap-0 items-center">
+                    <div className="flex justify-between md:flex-row flex-col items-center">
                       <div
                         className={cn(
-                          "md:w-[40%] px-5 md:px-0 md:text-left text-center flex flex-col gap-5 md:items-start items-center"
+                          "md:w-[50%] px-5 md:px-0 md:text-left text-center flex flex-col gap-5 md:items-start items-center"
                         )}
                       >
                         <h3 className="proxima uppercase text-[13px] tracking-[5px] leading-[26px] text-gray-400">
@@ -137,7 +137,7 @@ export const Slider = ({ data }: SliderType) => {
                           width={image.width}
                           height={image.height}
                           alt={image.alt}
-                          className="relative md:w-auto md:h-auto w-[80%]"
+                          className="relative w-[570px] h-[400px] object-cover rounded-[15px]"
                         />
                       </div>
                     </div>
