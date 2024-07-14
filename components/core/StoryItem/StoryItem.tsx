@@ -58,7 +58,7 @@ export const StoryItem = ({
               <Paragraph className=" font-[300]  proxima p-0 m-0 line-clamp-3 md:line-clamp-4 ">
                 {story}
               </Paragraph>
-              <div className="py-6 border-r-0 border-b-0   w-full">
+              <div className="py-6 border-r-0 border-b-0 text-center w-[35%]">
                 <p
                   // href={link.url}
                   // target={link.target}

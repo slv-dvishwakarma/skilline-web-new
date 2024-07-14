@@ -40,15 +40,13 @@ export const Stories = () => {
   const data: StoryItemtype[] = storiesData as StoryItemtype[];
 
   return (
-    <div className="container bg-[#fae5d1] md:rounded-xl md:my-[80px]">
+    <div className="container bg-[#fae5d1] md:rounded-xl mb-10">
       <div className="pt-10 md:px-10">
         <div className="flex items-center flex-col md:flex-row">
           <div className="md:w-[50%] w-full pb-10">
             <Heading className="mb-5">Success Stories</Heading>
             <Paragraph>
-              {`Skilline revolutionizes Bharat's education with affordable, AI-driven,
-          job-guaranteed courses in technology and high-demand sectors,
-          empowering learners and fostering national skill development.`}
+              {`Skilline was founded to address the critical skill shortages in India, particularly in rural areas. Starting with offline courses, we have transformed countless careers, and now, we are harnessing the power of AI to expand our reach and impact.`}
             </Paragraph>
           </div>
           <div className="md:w-[50%] w-full relative">

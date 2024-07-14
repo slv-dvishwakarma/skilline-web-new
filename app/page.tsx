@@ -2,7 +2,7 @@ import {
   HeroSlider,
   OurVision,
   OurImpact,
-  
+
   About,
   OurApproach,
   Stories,
@@ -18,8 +18,11 @@ import {
   AccordionPageTemplate,
   Empowering,
   CallAction,
+  Testimonial,
+  LearningPlatform,
 } from "@/components/home";
 import { Pillars } from "@/components/home-v2";
+import { HomePartnershipsLogos } from "@/components/home/HomePartnershipsLogos";
 import { States } from "@/components/home/States";
 
 export default function Home() {
@@ -32,19 +35,20 @@ export default function Home() {
       <CallAction />
       <States />
       <About />
-      <OurImpact />
-      
-      
-      <Policies />
-      <GuidingPrinciple />
-      <Pillars />
+      {/* <OurImpact /> */}
       <Stories />
-      <OurRoadmap />
       <Ventures />
-      <JoinUs />
+      <LearningPlatform />
+      
+      <GuidingPrinciple />
       <Courses />
-      <HomeContactUs />
+      {/* <Pillars /> */}
+      <Testimonial />
+      <HomePartnershipsLogos />
       <Blog />
+      <OurRoadmap />
+      <HomeContactUs />
+      <JoinUs />
       <AccordionPageTemplate />
       {/* <Contact /> */}
     </main>

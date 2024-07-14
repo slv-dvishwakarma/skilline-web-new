@@ -356,9 +356,7 @@ export const storiesData = [
     name: "Maharaju Yamala",
     city: "Hyderabad",
     image: "/story/maharaju.jpg",
-    story: `Maharaju was working with Genpact and was in operations, data entry. With our offline program he is now tripled his salary in a year and a efficient react developer.
-    Maharaju, formerly employed in operations and data entry at Genpact, has undergone a remarkable transformation thanks to our offline program. In just one year, he has tripled his salary and emerged as an efficient React developer. This incredible progress showcases the effectiveness of our program in empowering individuals to significantly advance their careers and achieve new professional heights.
-      `,
+    story: `From data entry at Genpact to React developer at XULifestyle, tripling his salary within a year.`,
     link: {
       label: "Read more",
       url: "/stories/#maharaju-yamala",
@@ -408,8 +406,7 @@ export const storiesData = [
     name: "Rama Kishore",
     city: "Andhra Pradesh",
     image: "/story/rama-kishore.png",
-    story: `Kishore was from Andhra, pass-out with 2 years gap, working with Mindmaster Singapore in operations job as he is not meant for programming. Pass-outs got Job working for Mindmaster Singapore.
-    Kishore, hailing from Andhra, experienced a two-year gap after graduation before securing a position at Mindmaster Singapore. Although he initially worked in an operations role, feeling that programming was not his forte, he has now found his place within the company. Despite the challenges faced by many recent graduates, Kishore successfully landed a job with Mindmaster Singapore, demonstrating his resilience and determination.`,
+    story: `Overcame a 2-year gap post-graduation to excel in operations at Mindmaster Singapore.`,
     link: {
       label: "Read more",
       url: "/stories/#ram-kishore",
@@ -449,8 +446,7 @@ export const storiesData = [
     name: "Avinesh Kumar",
     city: "Hyderabad",
     image: "/story/avinesh-kumar.jpg",
-    story: `8 years of gap, not meant for programming skilled and working in operations job in Singapore
-    Kishore, from Andhra, had an eight-year gap after graduation before securing a position at Mindmaster Singapore. Although he felt he was not meant for programming, he utilized his skills to excel in an operations role. Despite the challenges of such a long gap, Kishore's determination and hard work led him to a successful career in operations at a prestigious company in Singapore.`,
+    story: `From an 8-year gap to excelling in a tech industry operations job in Singapore.`,
     link: {
       label: "Read more",
       url: "/stories/#avinesh-kumar",
@@ -500,7 +496,7 @@ export const storiesData = [
     name: "Sonu Verma",
     city: "Indore",
     image: "/story/sonu-verma.jpg",
-    story: `Sonu Verma, from a middle-class family in Indore, transformed his career through Skilline's training, becoming a full-stack developer recognized for his innovative software products. His journey is a testament to the power of education and perseverance.`,
+    story: `From a laborer's son to a full-stack developer specializing in PHP and HTML.`,
     link: {
       label: "Read more",
       url: "/stories/#sonu-verma",
@@ -545,7 +541,7 @@ export const storiesData = [
     name: "Dilip Vishwakarma",
     city: "Indore",
     image: "/story/dilipv.jpg",
-    story: `Dilip's journey from a middle-class background in Indore to becoming an industry-recognized tech expert showcases the transformative power of Skilline's training programs. His story inspires others by demonstrating that perseverance and continuous learning can lead to remarkable career achievements.`,
+    story: `Upskilled and groomed to become a top industry talent.`,
     link: {
       label: "Read more",
       url: "/stories/#dilip-vishwakarma",
@@ -595,9 +591,7 @@ export const storiesData = [
     name: "Deepti Shukla",
     city: "Hyderabad",
     image: "/story/dipti-shukla.jpg",
-    story: `10 years gaps after motherhood from underconfident to a confident python developer.
-    Dipti faced a 10-year gap in her career due to motherhood, which initially left her feeling underconfident. However, through determination and continuous learning, she transformed herself into a confident Python developer. Dipti's journey from overcoming self-doubt to excelling in her field showcases the power of resilience and the ability to thrive despite significant career interruptions.
-    `,
+    story: `Transformed from an underconfident housewife to a confident Python developer.`,
     link: {
       label: "Read more",
       url: "/stories/#deepti-shukla",

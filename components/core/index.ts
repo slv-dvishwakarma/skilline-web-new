@@ -22,3 +22,5 @@ export * from "./Article"
 export * from "./Tooltip"
 export * from "./CallActionTemplate"
 export * from "./StatesItem"
+export * from "./TestimonialSlider";
+export * from "./PartnershipsLogos";

@@ -6,13 +6,13 @@ import React from "react";
 
 export const GuidingPrinciple = () => {
   const data = {
-    title: "Our Guiding Principle",
-    description: "A total skilling, reskilling, and upskilling with a multifaceted approach to make our youth more competitive is the topmost need of today's time. The initiatives are part of the joint goal to prepare young people for an agile and uncertain future job market.",
+    title: "How It Works",
+    description: "Our AI-powered platform tailors learning paths uniquely to each user, ensuring effective education aligned with their individual preferences and pace. It's designed to empower diverse learners, including rural youth and job seekers, supporting Skilline's mission to transform education and skill development in India.",
     image: "/images/5.png",
   };
 
   return (
-    <div className="bg-gray-100 md:my-[100px] relative xl:pt-0 lg:pt-0 md:pt-0 pt-[50px]">
+    <div className="bg-gray-100 relative">
       <div className="container ">
         <div className="flex flex-wrap items-center">
           <div className="space-y-9 xl:w-6/12 lg:w-6/12 md:w-6/12 w-full text-center">
@@ -23,7 +23,7 @@ export const GuidingPrinciple = () => {
               {data.description}
             </Paragraph>
             <Button asChild={true}>
-              <Link href="/our-guiding-principle">Read More</Link>
+              <Link href="/how-it-works">Read More</Link>
             </Button>
           </div>
           <div className="xl:w-6/12 lg:w-6/12 md:w-6/12 w-full flex xl:pb-0 lg:pb-0 md:pb-0 pb-10">

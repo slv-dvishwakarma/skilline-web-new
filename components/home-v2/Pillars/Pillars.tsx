@@ -58,7 +58,7 @@ export const Pillars = () => {
           <Paragraph>
           {`Skilline's raison d'etre for loading on skills. Skilline excels in quality and productivity at Fram Co-operative and manufacturing in India. Through its affordable, AI-driven courses in technology and high-demand sectors that come with assured job opportunities from India's leading recruitment and technology companies, Skilline aims to empower learners on a national scale for skill development.`}
           </Paragraph>
-          <UnorderedList className="space-y-0 text-slate-600 mb-3 inline-block grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-7">
+          <UnorderedList className="space-y-0 text-slate-600 mb-3 grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-7">
             {data.map((item: any, index) => {
               return (
                 <UnorderedList.Item key={index}>
@@ -67,11 +67,11 @@ export const Pillars = () => {
               );
             })}
           </UnorderedList>
-          <div className="pt-5">
+          {/* <div className="pt-5">
             <Button asChild={true}>
               <Link href={"/fulfilling-atma-nirbhar-5-pillars"}>Read More</Link>
             </Button>
-          </div>
+          </div> */}
         </div>
         <div className="md:w-1/2 w-full">
           <div className="flex justify-center w-full">

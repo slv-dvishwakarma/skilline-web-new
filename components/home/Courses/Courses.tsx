@@ -74,7 +74,7 @@ export const Courses = () => {
   };
 
   return (
-    <div className="py-[70px]">
+    <div className="py-[50px]">
       <div className="container space-y-10">
         <div className="w-full text-center space-y-2">
           <Heading>{data.title}</Heading>

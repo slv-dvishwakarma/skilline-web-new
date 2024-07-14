@@ -19,7 +19,7 @@ export const Blog = () => {
   return (
     <div className="py-[70px] bg-[#F8F8F8]">
       <div className="container space-y-10">
-        <Heading className="text-center">News & Article</Heading>
+        <Heading className="text-center">News and Updates</Heading>
         <div className="sm:grid xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-5 items-start xl:space-y-0 lg:space-y-0 md:space-y-0 space-y-4">
           {limitedData.map((item: ItemType, index: number) => {
             const { link, description, image, title } = item;

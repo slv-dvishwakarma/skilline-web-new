@@ -7,7 +7,6 @@ import { RiQuestionMark } from "react-icons/ri";
 
 export const AccordionPageTemplate = () => {
   const data = {
-    title: "Any Questions? We have Answers!",
     label: "Don't find your answer here?",
     description: "just send us a message for any query.",
     Link: {
@@ -96,7 +95,7 @@ export const AccordionPageTemplate = () => {
             <div className="bg-[#e9ecfb] w-[60px] h-[60px] hidden md:inline-flex items-center justify-center rounded-full ">
               <RiQuestionMark className="text-[#3750e0]" size={30} />
             </div>
-            <Heading>{data.title}</Heading>
+            <Heading >Questions? <br />We have Answers!</Heading>
             <Heading className=" md:text-[25px]">
               {data.label}
             </Heading>

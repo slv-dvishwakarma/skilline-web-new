@@ -15,7 +15,12 @@ interface ButtonItem {
 }
 
 interface ImageWithTextItem {
-  image: string;
+  image: {
+    url: string;
+    width: number;
+    height: number;
+    size: string;
+  },
   title: string;
   description: string;
   button?: ButtonItem;
@@ -47,11 +52,11 @@ export const ImageBoxStyleOne = ({ data }: ImageWithTextProps) => {
           /> */}
           {/* <div className="hidden xl:block lg:block md:block w-[200px] h-[200px] bg-primary absolute rounded-[50%] xl:left-[-66px] lg:left-[-7px] md:left-[-7px] bottom-[-68px]"></div> */}
           <Image
-            className="shadow-[0px_0px_20px_0px_rgba(51,51,51,0.1)] rounded-[10px_10px_10px_10px] relative"
-            src={data.image}
+            className={`shadow-[0px_0px_20px_0px_rgba(51,51,51,0.1)] rounded-[10px_10px_10px_10px] relative ${data.image.size}`}
+            src={data.image.url}
             alt={data.title}
-            width={1500}
-            height={1000}
+            width={data.image.width}
+            height={data.image.height}
           />
         </GridBox.GridItem>
         <GridBox.GridItem
