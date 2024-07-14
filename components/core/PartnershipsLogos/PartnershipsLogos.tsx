@@ -43,13 +43,13 @@ export const PartnershipsLogos: React.FC<PartnershipsLogosProps> = ({ images }) 
     return (
         <div ref={sliderRef} className="keen-slider py-4">
             {images.map((item, index) => (
-                <div key={index} className="keen-slider__slide shadow-[rgba(99,99,99,0.2)_0px_2px_8px_0px] rounded-[15px] ">
+                <div key={index} className="keen-slider__slide shadow-[rgba(99,99,99,0.2)_0px_2px_8px_0px] rounded-[15px] h-[130px]">
                     <Image
                         src={item.image}
                         alt={item.alt}
                         width={200}
                         height={200}
-                        className=' py-2 px-5 m-auto'
+                        className='m-auto h-[130px] object-contain object-center'
                     />
                 </div>
             ))}

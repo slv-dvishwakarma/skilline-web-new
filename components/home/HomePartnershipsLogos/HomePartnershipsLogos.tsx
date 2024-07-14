@@ -13,19 +13,19 @@ export const HomePartnershipsLogos = () => {
             },
             {
                 image: "/image/logos/2.png",
-                alt: "AWS"
+                alt: "India AI"
             },
             {
                 image: "/image/logos/3.png",
-                alt: "AWS"
+                alt: "Cloud Flare"
             },
             {
                 image: "/image/logos/4.png",
-                alt: "AWS"
+                alt: "Python"
             },
             {
                 image: "/image/logos/5.png",
-                alt: "AWS"
+                alt: "Django"
             }
         ]
     }

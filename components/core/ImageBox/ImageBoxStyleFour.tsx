@@ -68,12 +68,12 @@ export const ImageBoxStyleFour = ({
           <div className="w-auto h-auto relative mx-auto max-w-[80%]">
             <div
               className={cn(
-                "absolute  w-full h-full border-2   border-dashed  inline-block",
+                "",
                 BorderColor[color]
               )}
             ></div>
             <Image
-              className=" z-[1] relative w-full   rounded-xl p-10 md:h-[400px] object-contain"
+              className=" z-[1] relative w-full   rounded-xl md:h-[480px] md:object-cover"
               src={data.image}
               alt={data.title}
               width={1500}

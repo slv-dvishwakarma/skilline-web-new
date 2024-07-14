@@ -6,7 +6,7 @@ export const Skill_Gap_india = () => {
     <div className="md:pb-[10px] md:mt-[30px]">
       <ImageBox
         data={{
-          image: "/image/images/our_approach.jpg",
+          image: "/image/images/skill-gap.jpg",
           title: "Skill Gap in India",
           description:
             "India's burgeoning youth population holds the promise of transforming the nation into a global powerhouse and the world's skill capital. With over 65% of its citizens under the age of 35, this energetic and dynamic workforce has the potential to drive India into a new era, led by Gen Z and millennials.",

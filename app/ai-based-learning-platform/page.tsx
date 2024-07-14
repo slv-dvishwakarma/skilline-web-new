@@ -10,35 +10,35 @@ const page = () => {
             title: "Economy",
             description:
                 "Skilline is a platform that seeks to train the workforce here in the country in the most innovative ways, with the main goal being maximum productivity to make the country self-sufficient, increase the economy by providing more employment and self-employment opportunities, and promote a so-called “Skilline, the Youth of India'' brand to the world.",
-            image: "/images/Economy-2.png",
+            image: "/image/images/Economy.jpeg",
             color: "orange",
         },
         {
             title: "Infrastructure",
             description:
                 "Skilline will take advantage of the India AI Mission with technology that consists of AI and Gen AI servers for building up data banks of knowledge and an individualized pedagogy solution that can scale. Inclusivity, innovation, and social impact should expand, thereby reinforcing the country's global influence. One of our long-term aims is to establish a self-sustaining Indigenous University so that what is learned becomes the real commodity in this country.",
-            image: "/images/Infrastructure-2.png",
+            image: "/image/images/Infrastructure.jpg",
             color: "green",
         },
         {
             title: "System",
             description:
                 "The fact that Skilline is conceptualized as an energy repository and educational ecosystem where students can learn in their languages, not only AI but also Gen AI knowledge servers, will allow knowledge base ingestion to be the first of all the dispersed machines. The system-obtained knowledge will occur in sync with the demands of each student, making them well-acquainted with ideas about today's and most future innovative technologies.",
-            image: "/images/System.png",
+            image: "/image/images/System.jpeg",
             color: "blue",
         },
         {
             title: "Vibrant Demography Skills",
             description:
                 "The national educational platform that offers bilingual education services caters to different target audiences, including youth, office workers, rural residents, corporations, manufacturing centers, the government, and policymakers. The company is already in partnership with award-winning businesses in Australia and with Australian entrepreneurs who are certified for global expansion.",
-            image: "/images/Vibrant-Demography.png",
+            image: "/image/images/Vibrant Demography Skills.jpeg",
             color: "yellow",
         },
         {
             title: "Demand",
             description:
                 "Skilline is the leading supplier of on-demand skills and training courses, which is part of our country's effort to train employees on the job or in vocational schools to a level that guarantees employment or entrepreneurship. Our ultimate goal is to become one of the top course providers for a learning experience where students get to explore, validate, and enroll in personalized courses on demand.",
-            image: "/images/Demand.png",
+            image: "/image/images/Demand.jpeg",
             color: "gray",
         },
     ];
@@ -89,11 +89,11 @@ const page = () => {
                 <div className="flex flex-col md:flex-row py-[50px] items-center">
                     <div className="md:w-1/2 w-full">
                         <Image
-                            src="/images/policy-2.jpg"
+                            src="/image/images/Boosting the Future 2.jpeg"
                             width={1000}
                             height={1000}
                             alt=""
-                            className="rounded-lg"
+                            className="rounded-lg  md:h-[480px] md:object-cover"
                         />
                     </div>
                     <div className="md:w-1/2 w-full ">

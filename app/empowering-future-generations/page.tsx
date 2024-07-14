@@ -23,7 +23,9 @@ const Page = () => {
             >
                 Empowering Future Generations
             </Breadcrumb>
+            <div className='md:py-0 py-10'>
             <SkilliGap />
+            </div>
             {/* <GuidingPrinciple /> */}
             <div className='my-[50px]'>
             <OurVision />
@@ -100,7 +102,7 @@ const Page = () => {
               alt=""
               width={1024}
               height={1024}
-              className="border sticky top-[100px]"
+              className="border sticky top-[100px] rounded-[15px]"
             />
           </div>
         </div>
