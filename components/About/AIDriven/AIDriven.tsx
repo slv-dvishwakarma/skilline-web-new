@@ -3,7 +3,7 @@ import React from 'react'
 
 export const AIDriven = () => {
   return (
-    <div className="md:pb-[100px]">
+    <div className="md:pb-[50px]">
       <ImageBox
         data={{
           image: "/image/images/AI_Big Data.jpg",

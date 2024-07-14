@@ -64,7 +64,7 @@ const page = () => {
             <div className='py-10'>
                 <Pillars />
             </div>
-            <div className="container py-[50px]">
+            <div className="container">
                 <div className="space-y-10">
                     {data.map((item: any, index) => {
                         return (
@@ -86,7 +86,7 @@ const page = () => {
                 </div>
             </div>
             <div className="container">
-                <div className="flex flex-col md:flex-row md:py-[80px] py-[50px] items-center">
+                <div className="flex flex-col md:flex-row py-[50px] items-center">
                     <div className="md:w-1/2 w-full">
                         <Image
                             src="/images/policy-2.jpg"
@@ -108,7 +108,7 @@ const page = () => {
                 </div>
             </div>
             <div className="container ">
-        <div className="md:text-center space-y-5 md:pt-[60px] md:px-[10%]">
+        <div className="md:text-center space-y-5 md:px-[10%]">
           <Heading className="">Empower Skill India</Heading>
           <Paragraph className="!whitespace-normal">
             {`Skilling in an organized, multilingual, and AI-powered method. We provide personalized learning in real-time for everyone, using AI technology and available on all screens. This initiative is aimed at enabling a world-class resource pool of professionals who can not only build solutions but also help provide the essential skills for India's workforce in this digital age, thereby increasing employability and contributing to developing economies.`}

@@ -5,7 +5,7 @@ import React from "react";
 
 export const HomeContactUs = () => {
   return (
-    <div className="bg-[#F3F4F6]">
+    <div className="bg-[#F3F4F6] md:pt-0 pt-10">
     <div className="container md:pt-5 pb-[50px] ">
       <Heading className="text-center">Contact us</Heading>
       <div className="grid md:grid-cols-2 grid-cols-1 md:gap-5 mt-10 xl:space-y-0 lg:space-y-0 md:space-y-0 space-y-5">

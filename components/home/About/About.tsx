@@ -3,10 +3,10 @@ import { ImageBox } from "@/components/core";
 export const About = () => {
   const data = {
     image: {
-      url: "/image/images/About Us F.jpeg",
+      url: "/image/images/About Us.jpeg",
       width: 1024,
       height: 1024,
-      size: "h-[480px] object-cover"
+      size: "md:h-[480px] object-cover"
   },
     title: "About Us",
     description:
@@ -18,7 +18,7 @@ export const About = () => {
     }
     };
   return (
-    <div className="md:py-10">
+    <div className="py-10">
       <ImageBox data={data} type="style-1" />
     </div>
   );

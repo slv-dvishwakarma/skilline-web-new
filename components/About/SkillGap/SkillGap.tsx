@@ -3,7 +3,7 @@ import React from 'react'
 
 export const SkillGap = () => {
   return (
-    <div className="md:pt-[150px] pt-[50px] md:pb-[120px]">
+    <div className="py-5">
       <ImageBox
         data={{
           image: "/image/images/skill-gap-blocks.jpg",

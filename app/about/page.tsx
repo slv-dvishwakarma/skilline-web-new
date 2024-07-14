@@ -23,7 +23,7 @@ const AboutUs = () => {
       </Breadcrumb>
       <About />
       <div className="container ">
-        <div className="md:text-center md:px-[15%] md:pt-[130px] md:pb-[50px] pt-[50px] space-y-6">
+        <div className="md:text-center md:px-[15%] py-8 space-y-6">
           <Heading>
           The Largest Global Marketplace for Learning and Instruction
           </Heading>

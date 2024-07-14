@@ -3,10 +3,10 @@ import { ImageBox } from "@/components/core";
 export const LearningPlatform = () => {
   const data = {
     image: {
-        url: "/image/images/About Us F.jpeg",
+        url: "/image/images/ai based learning platform.jpeg",
         width: 1024,
         height: 1024,
-        size: "h-[480px] object-cover"
+        size: "md:h-[480px] object-cover"
     },
     title: "The AI-Based Learning Platform",
     description:
@@ -18,7 +18,7 @@ export const LearningPlatform = () => {
     }
     };
   return (
-    <div className="md:pt-10 md:pb-10">
+    <div className="py-10">
       <ImageBox data={data} type="style-1" />
     </div>
   );

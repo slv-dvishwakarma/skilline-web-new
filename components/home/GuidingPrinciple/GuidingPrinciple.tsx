@@ -1,4 +1,4 @@
-import { Paragraph } from "@/components/core";
+import { Heading, Paragraph } from "@/components/core";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
@@ -8,17 +8,15 @@ export const GuidingPrinciple = () => {
   const data = {
     title: "How It Works",
     description: "Our AI-powered platform tailors learning paths uniquely to each user, ensuring effective education aligned with their individual preferences and pace. It's designed to empower diverse learners, including rural youth and job seekers, supporting Skilline's mission to transform education and skill development in India.",
-    image: "/images/5.png",
+    image: "/image/images/how-it-works.jpeg",
   };
 
   return (
-    <div className="bg-gray-100 relative">
+    <div className="bg-gray-100 relative py-5">
       <div className="container ">
-        <div className="flex flex-wrap items-center">
-          <div className="space-y-9 xl:w-6/12 lg:w-6/12 md:w-6/12 w-full text-center">
-            <h2 className="text-[30px] leading-[29px] md:text-[50px] md:leading-[40px]  font-[500]">
-              {data.title}
-            </h2>
+        <div className="sm:grid grid-cols-2 gap-10 items-center">
+          <div className="grid-item col-span-1 relative space-y-5">
+            <Heading>{data.title}</Heading>
             <Paragraph className=" font-light  tracking-[_0.4px]">
               {data.description}
             </Paragraph>
@@ -26,21 +24,14 @@ export const GuidingPrinciple = () => {
               <Link href="/how-it-works">Read More</Link>
             </Button>
           </div>
-          <div className="xl:w-6/12 lg:w-6/12 md:w-6/12 w-full flex xl:pb-0 lg:pb-0 md:pb-0 pb-10">
+          <div className="grid-item col-span-1 relative">
             <Image
-              className="xl:block lg:block md:block hidden absolute w-[30%] right-0"
-              src="/images/dotted-wave.png"
-              alt={data.title}
-              width={1200}
-              height={894}
-            />
-            <Image
-              className="float-left relative  pt-10 md:w-[500px] mx-auto w-[50%]"
+              className="float-left shadow-[0px_0px_20px_0px_rgba(51,51,51,0.1)] rounded-[10px_10px_10px_10px] relative md:h-[480px] object-cover"
               // src={data.image}
-              src={"/images/5.png"}
+              src={data.image}
               alt={data.title}
-              width={1200}
-              height={894}
+              width={1024}
+              height={1024}
             />
           </div>
         </div>

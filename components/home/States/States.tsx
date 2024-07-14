@@ -5,22 +5,22 @@ export const States = () => {
 
     const data = [
         {
-            icon: "/image/states/job-seeker.png",
+            icon: "/image/icon/1.png",
             count: "50+",
             label: "job seekers trained",
         },
         {
-            icon: "/image/states/job-seeker.png",
+            icon: "/image/icon/2.png",
             count: "30+",
             label: "jobs created",
         },
         {
-            icon: "/image/states/job-seeker.png",
+            icon: "/image/icon/3.png",
             count: "30+",
             label: "internships provided to rural youth",
         },
         {
-            icon: "/image/states/job-seeker.png",
+            icon: "/image/icon/4.png",
             count: "20+",
             label: "company partnerships for job placements",
         }

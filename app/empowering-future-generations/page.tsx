@@ -1,6 +1,6 @@
 
 import { Breadcrumb, Heading, Paragraph } from '@/components/core';
-import { GuidingPrinciple, OurVision, Skill_Gap_india, SkilliGap } from '@/components/empowering-future-generations';
+import { OurVision, Skill_Gap_india, SkilliGap } from '@/components/empowering-future-generations';
 import Image from 'next/image';
 import React from 'react'
 
@@ -96,10 +96,10 @@ const Page = () => {
           </div>
           <div className="md:w-1/2 w-full md:pl-10">
             <Image
-              src="/images/solution.jpg"
+              src="/image/images/Solutions.jpeg"
               alt=""
-              width={1000}
-              height={1000}
+              width={1024}
+              height={1024}
               className="border sticky top-[100px]"
             />
           </div>
