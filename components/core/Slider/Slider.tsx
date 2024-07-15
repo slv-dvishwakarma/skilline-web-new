@@ -137,7 +137,8 @@ export const Slider = ({ data }: SliderType) => {
                           width={image.width}
                           height={image.height}
                           alt={image.alt}
-                          className="relative md:w-[570px] w-[90%] md:h-[400px] md:object-cover rounded-[15px] md:mt-0 mt-[20px]"
+                          title={image.alt}
+                          className="relative md:w-[570px] w-[90%] md:h-[400px] md:object-cover rounded-[15px] md:mt-0 mt-[20px] "
                         />
                       </div>
                     </div>

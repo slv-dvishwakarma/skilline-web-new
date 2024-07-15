@@ -15,7 +15,7 @@ export const HeroSlider = () => {
       //   target: "_self",
       // },
       image: {
-        src: "/image/images/Empowering-Future-Generations.jpg",
+        src: "/image/images/slider-5.jpg",
         width: 1015,
         height: 735,
         alt: "",
@@ -52,23 +52,23 @@ export const HeroSlider = () => {
         height: 735,
         alt: "",
       },
-    }
-    // {
-    //   preTitle: "Envisioning the future",
-    //   title: "Empowering Individual Potential",
-    //   description: `Our vision is to cultivate personalized learning experiences that unleash individual potential, fostering nationwide prosperity and growth`,
-    //   // button: {
-    //   //   label: "Explore Solution",
-    //   //   links: "",
-    //   //   target: "_self",
-    //   // },
-    //   image: {
-    //     src: "/images/banner-5.png",
-    //     width: 400,
-    //     height: 428,
-    //     alt: "",
-    //   },
-    // },
+    },
+    {
+      preTitle: "Envisioning the future",
+      title: "Awakening Individual Potential",
+      description: `Our vision is to cultivate personalized learning experiences that unleash individual potential, fostering nationwide prosperity and growth`,
+      // button: {
+      //   label: "Explore Solution",
+      //   links: "",
+      //   target: "_self",
+      // },
+      image: {
+        src: "/image/images/empowering-india-fututre.jpg",
+        width: 1015,
+        height: 735,
+        alt: "",
+      },
+    },
   ];
 
   return <Slider data={sliderData} />;
