@@ -70,7 +70,7 @@ export const ContactIconBox = ({
   };
 
   return (
-    <div className="rounded-md p-5 border border-slate-200  flex w-full bg-white shadow-[rgba(149,157,165,0.2)_0px_8px_24px]">
+    <div className="p-5  flex w-full ">
       <div className="bg-primary/5  text-primary mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded sm:h-[70px] sm:max-w-[70px]">
         {Icons[icon]}
       </div>

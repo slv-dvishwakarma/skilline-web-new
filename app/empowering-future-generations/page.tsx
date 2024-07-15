@@ -98,7 +98,7 @@ const Page = () => {
           </div>
           <div className="md:w-1/2 w-full md:pl-10">
             <Image
-              src="/image/images/Solutions.jpeg"
+              src="/image/images/Solutions.jpg"
               alt=""
               width={1024}
               height={1024}

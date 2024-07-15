@@ -47,7 +47,7 @@ export const HeroSlider = () => {
       //   target: "_self",
       // },
       image: {
-        src: "/image/images/indusry-ready-skills.jpg",
+        src: "/image/images/Industry Ready skill.jpg",
         width: 1015,
         height: 735,
         alt: "",
@@ -55,7 +55,7 @@ export const HeroSlider = () => {
     },
     {
       preTitle: "Envisioning the future",
-      title: "Awakening Individual Potential",
+      title: "Empowering Individual Potential",
       description: `Our vision is to cultivate personalized learning experiences that unleash individual potential, fostering nationwide prosperity and growth`,
       // button: {
       //   label: "Explore Solution",

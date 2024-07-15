@@ -3,7 +3,7 @@ import { ImageBox } from "@/components/core";
 export const LearningPlatform = () => {
   const data = {
     image: {
-        url: "/image/images/ai based learning platform.jpeg",
+        url: "/image/images/ai based learning platform.jpg",
         width: 1024,
         height: 1024,
         size: "md:h-[480px] object-cover"

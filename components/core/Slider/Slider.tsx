@@ -81,7 +81,7 @@ export const Slider = ({ data }: SliderType) => {
             const descriptionArray = description.split("\n");
             return (
               <CarouselItem key={index}>
-                <div className="md:h-[600px] md:pb-[80px] h-[550px] bg-gradient-to-b  from-gray-50 via-white to-gray-100 flex items-center py-10 md:py-0">
+                <div className="md:h-[600px] md:pb-[80px] h-[580px] bg-gradient-to-b  from-gray-50 via-white to-gray-100 flex items-center py-10 md:py-0">
                   <div className="container">
                     <div className="flex justify-between md:flex-row flex-col items-center">
                       <div

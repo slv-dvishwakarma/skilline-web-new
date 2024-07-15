@@ -8,7 +8,7 @@ export const GuidingPrinciple = () => {
   const data = {
     title: "How It Works",
     description: "Our AI-powered platform tailors learning paths uniquely to each user, ensuring effective education aligned with their individual preferences and pace. It's designed to empower diverse learners, including rural youth and job seekers, supporting Skilline's mission to transform education and skill development in India.",
-    image: "/image/images/how-it-works.jpeg",
+    image: "/image/images/How It Works.jpg",
   };
 
   return (
@@ -20,9 +20,10 @@ export const GuidingPrinciple = () => {
             <Paragraph className=" font-light  tracking-[_0.4px]">
               {data.description}
             </Paragraph>
-            <Button asChild={true}>
+            {/* stuck: button hide because internal page content not available *} 
+            {/* <Button asChild={true}>
               <Link href="/how-it-works">Read More</Link>
-            </Button>
+            </Button> */}
           </div>
           <div className="grid-item col-span-1">
             <Image

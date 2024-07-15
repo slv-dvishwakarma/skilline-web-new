@@ -65,7 +65,7 @@ export const ImageBoxStyleFour = ({
         )}
       >
         <div className="md:w-[54%] w-full pl-5 md:pl-0">
-          <div className="w-auto h-auto relative mx-auto max-w-[80%]">
+          <div className="w-auto h-auto relative md:mx-auto md:max-w-[80%]">
             <div
               className={cn(
                 "",

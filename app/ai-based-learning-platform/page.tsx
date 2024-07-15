@@ -117,11 +117,11 @@ const page = () => {
         <div className="flex flex-col md:flex-row pt-[20px] pb-[80px] items-center">
           <div className="md:w-1/2 w-full">
             <Image
-              src="/images/empower-inda.webp"
+              src="/image/images/benifits.png"
               width={1000}
               height={1000}
               alt=""
-              className="rounded-lg"
+              className="md:h-[500px] md:object-cover rounded-[15px]"
             />
           </div>
           <div className="md:w-1/2 w-full ">

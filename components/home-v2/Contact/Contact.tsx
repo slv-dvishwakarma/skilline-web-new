@@ -12,14 +12,6 @@ export const Contact = () => {
   const data = {
     cnt_icon: [
       {
-        icon: FaPhone,
-        title: "Call Us",
-        link: {
-          label: "+91 12345-67890",
-          url: "tel:+91 12345-67890"
-        }
-      },
-      {
         icon: FaRegEnvelope,
         title: "Mail Us",
         link: {

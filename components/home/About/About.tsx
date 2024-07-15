@@ -3,7 +3,7 @@ import { ImageBox } from "@/components/core";
 export const About = () => {
   const data = {
     image: {
-      url: "/image/images/home-about.jpg",
+      url: "/image/images/About Us.jpg",
       width: 1024,
       height: 1024,
       size: "md:h-[480px] object-cover"

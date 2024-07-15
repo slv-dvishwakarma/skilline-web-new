@@ -29,7 +29,7 @@ const ContactUs = () => {
       <Breadcrumb data={breadcrumb}>Contact us</Breadcrumb>
       <div className="container py-[20px]  md:py-[80px]">
         <div className="flex flex-col md:flex-row justify-between">
-          <div className="md:w-[30%] w-full pt-6">
+          <div className="md:w-[30%] w-full pt-6 md:sticky md:top-[50px] md:h-full">
             <Heading>Keep In Touch With Us.</Heading>
             <div className="divide-y divide-gray-200">
               <IconBoxV2
@@ -39,13 +39,13 @@ const ContactUs = () => {
               >
                 594, Road No. 34, Survey Of India Ayyappa Society, Chanda Naik Nagar, Madhapur, Hyderabad, Telangana 500081
               </IconBoxV2>
-              <IconBoxV2
+              {/* <IconBoxV2
                 className="py-6"
                 icon="/images/mobile-phone.png"
                 title="Phone"
               >
                 Mobile: <b>(+91) - xxxx - xxx - xxx</b>
-              </IconBoxV2>
+              </IconBoxV2> */}
               <IconBoxV2
                 className="py-6"
                 icon="/images/email-1.png"
@@ -55,7 +55,7 @@ const ContactUs = () => {
               </IconBoxV2>
             </div>
           </div>
-          <div className="w-full md:w-[60%]">
+          <div className="w-full md:w-[60%] ">
             <Card className="md:p-10 p-5">
               <Heading className="mb-8 text-xl font-semibold text-gray-800 dark:text-neutral-200">
                 Send a Message
