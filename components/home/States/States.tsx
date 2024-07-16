@@ -7,22 +7,22 @@ export const States = () => {
         {
             icon: "/image/icon/1.png",
             count: "50+",
-            label: "job seekers trained",
+            label: "Job Seekers Trained",
         },
         {
             icon: "/image/icon/2.png",
             count: "30+",
-            label: "jobs created",
+            label: "Jobs Created",
         },
         {
             icon: "/image/icon/3.png",
             count: "30+",
-            label: "internships provided to rural youth",
+            label: "Internships Provided To Rural Youth",
         },
         {
             icon: "/image/icon/4.png",
             count: "20+",
-            label: "company partnerships for job placements",
+            label: "Company Partnerships",
         }
     ]
 

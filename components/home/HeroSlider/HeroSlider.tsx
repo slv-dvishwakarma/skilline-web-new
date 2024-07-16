@@ -55,7 +55,7 @@ export const HeroSlider = () => {
     },
     {
       preTitle: "Envisioning the future",
-      title: "Empowering Individual Potential",
+      title: "Awakening Individual Potential",
       description: `Our vision is to cultivate personalized learning experiences that unleash individual potential, fostering nationwide prosperity and growth`,
       // button: {
       //   label: "Explore Solution",

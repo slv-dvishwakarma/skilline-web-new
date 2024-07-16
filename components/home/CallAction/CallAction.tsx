@@ -8,7 +8,7 @@ export const CallAction = () => {
         description: "Take advantage of our job-guaranteed training programs, and partner with us or contribute to our mission through donations and volunteering.",
         button: {
             url: "/contact-us",
-            label: "Apply",
+            label: "Enquiry",
             target: "_self" as "_self" | "_blank"
         }
     }

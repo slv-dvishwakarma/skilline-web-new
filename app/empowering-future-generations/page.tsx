@@ -21,7 +21,7 @@ const Page = () => {
                     },
                 ]}
             >
-                Empowering Future Generations
+                Empowering Future
             </Breadcrumb>
             <div className='md:py-0 py-10'>
             <SkilliGap />

@@ -64,7 +64,7 @@ export const ImageBoxStyleTwo: React.FC<ImageTextProps> = ({
               height={178}
             /> */}
             <Image
-              className="xl:h-[400px] lg:h-[400px] md:h-[400px] h-[200px] object-cover shadow-[0px_0px_20px_0px_rgba(51,51,51,0.1)] rounded-[10px_10px_10px_10px] xl:w-[85%] lg:w-[96%] md:w-[93%] w-full relative "
+              className="xl:h-[400px] lg:h-[480px] md:h-[480px] h-[200px] object-cover shadow-[0px_0px_20px_0px_rgba(51,51,51,0.1)] rounded-[10px_10px_10px_10px] xl:w-[85%] lg:w-[96%] md:w-[93%] w-full relative "
               src={data.image}
               alt={data.title}
               width={1500}
@@ -75,7 +75,6 @@ export const ImageBoxStyleTwo: React.FC<ImageTextProps> = ({
             <Heading>{data.title}</Heading>
             <Paragraph>{data.description}</Paragraph>
             <Paragraph>{data.additional_description}</Paragraph>
-            
           </div>
         </div>
       )}

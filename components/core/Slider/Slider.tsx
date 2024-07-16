@@ -89,9 +89,9 @@ export const Slider = ({ data }: SliderType) => {
                           "md:w-[50%] px-5 md:px-0 md:text-left text-center flex flex-col gap-5 md:items-start items-center"
                         )}
                       >
-                        <h3 className="proxima uppercase text-[13px] tracking-[5px] leading-[26px] text-gray-400">
+                        {/* <h3 className="proxima uppercase text-[13px] tracking-[5px] leading-[26px] text-gray-400">
                           {preTitle}
-                        </h3>
+                        </h3> */}
                         <h2
                           className={cn(
                             "md:text-[65px] leading-[35px] text-[30px] font-[600]  md:leading-[85px] text-slate-800 ",
