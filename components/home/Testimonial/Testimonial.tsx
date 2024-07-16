@@ -37,7 +37,7 @@ export const Testimonial = () => {
     }
 
     return (
-        <div className='bg-[#F3F4F6]'>
+        <div className=''>
             <TestimonialSlider heading={data.heading} description={data.description} quote={data.quote} />
         </div>
     )

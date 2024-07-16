@@ -11,10 +11,7 @@ import {
   Carousel,
   CarouselApi,
   CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-  EmblaOptionsType,
+  CarouselItem
 } from "@/components/ui/carousel";
 
 import React, { useState } from "react";

@@ -20,6 +20,7 @@ import {
   CallAction,
   Testimonial,
   LearningPlatform,
+  Course,
 } from "@/components/home";
 import { Pillars } from "@/components/home-v2";
 import { HomePartnershipsLogos } from "@/components/home/HomePartnershipsLogos";
@@ -32,23 +33,32 @@ export default function Home() {
       <OurApproach />
       {/* <OurVision /> */}
       <Empowering />
-      <CallAction />
-      <States />
+      
+      {/* <CallAction /> */}
       <About />
+      <States />
+      
       {/* <OurImpact /> */}
+      <div className="pt-10">
       <Stories />
+      </div>
       <Ventures />
       <LearningPlatform />
       
       <GuidingPrinciple />
-      <Courses />
+      {/* <Courses /> */}
       {/* <Pillars /> */}
+      
       <Testimonial />
+      <div className="pt-10">
+      <Course />
+      </div>
       <HomePartnershipsLogos />
       <Blog />
       <OurRoadmap />
       <HomeContactUs />
       <JoinUs />
+      
       <AccordionPageTemplate />
       {/* <Contact /> */}
     </main>

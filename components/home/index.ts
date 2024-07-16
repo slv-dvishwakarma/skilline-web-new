@@ -19,3 +19,4 @@ export * from "./Empowering";
 export * from "./CallAction";
 export * from "./Testimonial";
 export * from "./LearningPlatform";
+export * from "./Course";

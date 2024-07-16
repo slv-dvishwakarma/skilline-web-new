@@ -638,3 +638,66 @@ export const storiesData = [
     ],
   },
 ];
+
+export const courseData = [
+  {
+    course: "Python",
+    risk: {
+      label: "Very High",
+      bgcolor: "bg-[rgba(254,137,91,0.15)] text-[#d33434]",
+    },
+    image: "/course/pu-02.jpg",
+    title: "Python for AI & Machine learning",
+    cousedescription: "This comprehensive Python course covers fundamentals to advanced concepts, enabling you to develop powerful applications and automate tasks efficiently.",
+    link: {
+      label: "Read More",
+      url: "#",
+      target: "_self"
+    }
+  },
+  {
+    course: "Python",
+    risk: {
+      label: "High",
+      bgcolor: "bg-[rgba(254,137,91,0.15)] text-[#feb55b]",
+    },
+    image: "/course/py-04.png",
+    title: "Mastering Machine learning Library",
+    cousedescription: "Mastering Machine learning Library(e.g. TensorFlow, PyTorch scikit-learn)",
+    link: {
+      label: "Read More",
+      url: "#",
+      target: "_self"
+    }
+  },
+  {
+    course: "Python",
+    risk: {
+      label: "High",
+      bgcolor: "bg-[rgba(254,137,91,0.15)] text-[#feb55b]",
+    },
+    image: "/course/py-03.jpg",
+    title: "Deep Learning Fundamentals with TensorFlow/PyTorch",
+    cousedescription: "Deep Learning Fundamentals (e.g. TensorFlow, PyTorch, Keras)",
+    link: {
+      label: "Read More",
+      url: "#",
+      target: "_self"
+    }
+  },
+  {
+    course: "Python",
+    risk: {
+      label: "Expert",
+      bgcolor: "bg-[rgba(254,137,91,0.15)] text-[#d33434]",
+    },
+    image: "/course/py-ai-1.jpg",
+    title: "Data structures & Algorithms for ai",
+    cousedescription: "Data structures & Algorithms",
+    link: {
+      label: "Read More",
+      url: "#",
+      target: "_self"
+    }
+  }
+]

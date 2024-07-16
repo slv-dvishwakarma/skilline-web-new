@@ -98,11 +98,11 @@ export const TestimonialSlider = ({ heading, description, quote }: TestimonialIt
                     </div>
  
                     <div className="-mx-6 lg:col-span-2 lg:mx-0">
-                        <div id="keen-slider" ref={sliderRef} className="keen-slider">
+                        <div id="keen-slider" ref={sliderRef} className="keen-slider ">
                             {quote.map((item, index) => (
-                                <div key={index} className="keen-slider__slide shadow-[rgba(149,157,165,0.2)_0px_8px_24px]">
+                                <div key={index} className="keen-slider__slide bg-[#F3F4F6] rounded-[15px]">
                                     <blockquote
-                                        className="flex h-full flex-col justify-between bg-white shadow-sm sm:p-8 lg:py-6 lg:px-6 xl:py-6 xl:px-6 md:py-6 md:px-6 p-6 rounded-[15px]"
+                                        className="flex h-full flex-col justify-between shadow-sm sm:p-8 lg:py-6 lg:px-6 xl:py-6 xl:px-6 md:py-6 md:px-6 p-6 rounded-[15px]"
                                     >
                                         <div>
                                             <div className="flex gap-0.5 text-[#3750e0]">
