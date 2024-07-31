@@ -21,6 +21,9 @@ import {
   Testimonial,
   LearningPlatform,
   Course,
+  Regionallanguages,
+  OurStory,
+  RoadMap,
 } from "@/components/home";
 import { Pillars } from "@/components/home-v2";
 import { HomePartnershipsLogos } from "@/components/home/HomePartnershipsLogos";
@@ -30,32 +33,37 @@ export default function Home() {
   return (
     <main>
       <HeroSlider />
+      <Regionallanguages />
       <OurApproach />
       {/* <OurVision /> */}
-      <Empowering />
-      
-      {/* <CallAction /> */}
-      <About />
       <States />
-      
-      {/* <OurImpact /> */}
-      <div className="pt-10">
-      <Stories />
-      </div>
+      <About />
+      <OurStory />
+      <div className="pt-[30px]">
       <Ventures />
+      </div>
       <LearningPlatform />
-      
       <GuidingPrinciple />
-      {/* <Courses /> */}
-      {/* <Pillars /> */}
-      
-      <Testimonial />
       <div className="pt-10">
       <Course />
       </div>
+      <Testimonial />
+      <Empowering />
+      
+      <div className="pt-10">
+      <Stories />
+      </div>
+    <div className="xl:block lg:block md:block hidden">
+    <RoadMap />
+    </div>
+      <div className="xl:hidden lg:hidden md:hidden block">
+      <OurRoadmap />
+      </div>
+      
+      
       <HomePartnershipsLogos />
       <Blog />
-      <OurRoadmap />
+      
       <HomeContactUs />
       <JoinUs />
       

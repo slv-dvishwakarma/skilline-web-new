@@ -35,15 +35,12 @@ export const Blog = () => {
             );
           })}
         </div>
-        <div className="text-center flex">
+        <div className="text-center flex justify-center">
           <Link
             href="/blogs"
-            className=" flex items-center gap-3 text-center m-auto"
+            className="flex items-center justify-center whitespace-nowrap rounded-md font-[500] transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 bg-black text-white hover:text-black shadow hover:bg-gray-200 md:h-[52px] h-[42px] px-[20px] md:px-[25px] py-0 text-[18px] md:text-[15px]"
           >
-            <span>View All Posts</span>{" "}
-            <span>
-              <FaArrowRightLong />
-            </span>
+            <span>Find out more </span>
           </Link>
         </div>
       </div>

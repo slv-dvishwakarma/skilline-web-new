@@ -24,3 +24,5 @@ export * from "./CallActionTemplate"
 export * from "./StatesItem"
 export * from "./TestimonialSlider";
 export * from "./PartnershipsLogos";
+export * from "./HeadingBtn";
+export * from "./ImageBoxStyle";

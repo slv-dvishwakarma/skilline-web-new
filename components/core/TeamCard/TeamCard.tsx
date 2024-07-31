@@ -5,6 +5,8 @@ export type TeamCardType = {
   src: string;
   name: string;
   profession: string;
+  role:string;
+  experence: string;
   social?: [
     {
       icon: "linkedin";
@@ -20,6 +22,8 @@ type TeamCardMain = {
   type?: VariantType;
 } & TeamCardType;
 export const TeamCard = ({
+  experence,
+  role,
   src,
   name,
   profession,
@@ -32,5 +36,5 @@ export const TeamCard = ({
   };
 
   const Team = Variant[type] || <div>{type} Not a valid type</div>;
-  return <Team src={src} social={social} name={name} profession={profession} />;
+  return <Team experence={experence} role={role} src={src} social={social} name={name} profession={profession} />;
 };

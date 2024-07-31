@@ -20,3 +20,6 @@ export * from "./CallAction";
 export * from "./Testimonial";
 export * from "./LearningPlatform";
 export * from "./Course";
+export * from "./Regionallanguages";
+export * from "./OurStory";
+export * from "./RoadMap";

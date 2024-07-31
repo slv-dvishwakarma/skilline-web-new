@@ -6,14 +6,14 @@ export const LearningPlatform = () => {
         url: "/image/images/ai based learning platform.jpg",
         width: 1024,
         height: 1024,
-        size: "md:h-[480px] object-cover"
+        size: "md:h-[400px] object-cover"
     },
-    title: "The AI-Based Learning Platform",
+    title: "SKILLINE- The AI-Based Learning Platform",
     description:
-      "Skilline utilizes AI to offer personalized education that meets market demands, ensuring accessibility and affordability. Through tailored learning experiences, the platform empowers learners with skills aligned to current market needs, fostering inclusivity and economic viability in education.",
+      "Skilline's AI-based self-learning platform offers personalized education that meets market demands, ensuring accessibility and affordability for all",
     button: {
-      label: "Read More",
-      links: "/ai-based-learning-platform",
+      label: "Reveal More",
+      links: "/policies",
       target: "_self"
     }
     };

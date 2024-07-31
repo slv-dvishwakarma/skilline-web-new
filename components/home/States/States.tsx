@@ -6,13 +6,13 @@ export const States = () => {
     const data = [
         {
             icon: "/image/icon/1.png",
-            count: "50+",
-            label: "Job Seekers Trained",
+            count: "200+",
+            label: "Individuals Upskilled",
         },
         {
             icon: "/image/icon/2.png",
-            count: "30+",
-            label: "Jobs Created",
+            count: "75%",
+            label: "Career Advancement",
         },
         {
             icon: "/image/icon/3.png",

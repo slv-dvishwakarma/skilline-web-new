@@ -5,21 +5,25 @@ import React from "react";
 export const Ventures = () => {
   const data = [
     {
-      src: "/images/neelam-pal.jpeg",
-      name: "Neelam Pal",
-      profession: "Test Automation Architect",
+      src: "/image/teams/nishant-saxena.jpg",
+      name: "Nishant Saxena",
+      profession: "CEO- IT Consultant- Software Developer",
+      role: "CEO",
+      experence: "20+",
       social: [
         {
           icon: "linkedin",
           label: "Linkedin",
-          link: "https://www.linkedin.com/in/palneelam/",
+          link: "https://www.linkedin.com/in/nishantasaxena/",
         },
       ],
     },
     {
-      src: "/images/hansi-malhotra.jpeg",
+      src: "/image/teams/hansi-malhotra.jpeg",
       name: "Hansi Malhotra ",
-      profession: "Financial education, investing in India and climate/fintech",
+      profession: "Advisory- Fintech- Entrepreneurship-Climate Professional",
+      role: "Advisor",
+      experence: "30+",
       social: [
         {
           icon: "linkedin",
@@ -29,10 +33,12 @@ export const Ventures = () => {
       ],
     },
     {
-      src: "/images/monika-kulshreshtha.jpeg",
+      src: "/image/teams/monika-kulshreshtha.jpeg",
       name: "Monika Kulshreshtha",
       profession:
-        "Serial Entrepreneur | IT Consultant | Growth Hacker | Mentor ",
+        "Serial Entrepreneur - IT Consultant - Growth Hacker - Mentor",
+        role: "Advisor",
+        experence: "20+",
       social: [
         {
           icon: "linkedin",
@@ -42,9 +48,25 @@ export const Ventures = () => {
       ],
     },
     {
-      src: "/images/upal-roy.jpeg",
+      src: "/image/teams/neelam-pal.jpeg",
+      name: "Neelam Pal",
+      profession: "Automation and IT Consultant- Analytics-Quality Assurance",
+      role: "Advisor",
+      experence: "20+",
+      social: [
+        {
+          icon: "linkedin",
+          label: "Linkedin",
+          link: "https://www.linkedin.com/in/palneelam/",
+        },
+      ],
+    },
+    {
+      src: "/image/teams/upal-roy.jpeg",
       name: "Upal Roy ",
-      profession: "AI/ML evangelist EGN STR EXP",
+      profession: "Gen AI Evangelist- Data Scientist-Strategy consultant",
+      role: "Advisor",
+      experence: "20+",
       social: [
         {
           icon: "linkedin",
@@ -54,9 +76,11 @@ export const Ventures = () => {
       ],
     },
     {
-      src: "/images/raman-rajpal.jpeg",
+      src: "/image/teams/raman-rajpal.jpeg",
       name: "Raman Rajpal - Haryana ",
-      profession: "Manager @Amazon India ",
+      profession: "IT Consultant- Software Developer",
+      role: "CEO",
+      experence: "15+",
       social: [
         {
           icon: "linkedin",
@@ -66,33 +90,25 @@ export const Ventures = () => {
       ],
     },
     {
-      src: "/images/naganath.jpeg",
-      name: "Naganath - Tamil   ",
-      profession: "UI React from USA ",
+      src: "/image/teams/vijendra-paliwal.png",
+      name: "Vijendra Palliwal",
+      profession: "Researcher- Design Thinking- Entrepreneur",
+      role: "Core Team Member",
+      experence: "10+",
       social: [
         {
           icon: "linkedin",
           label: "Linkedin",
-          link: "",
+          link: "#",
         },
       ],
     },
     {
-      src: "/images/naganath.jpeg",
-      name: "Debashish Sahoo    ",
-      profession: "Assam Data Engineering ",
-      social: [
-        {
-          icon: "linkedin",
-          label: "Linkedin",
-          link: "https://www.linkedin.com/in/debasshis/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        },
-      ],
-    },
-    {
-      src: "/images/ashutosh-taiwal.jpeg",
-      name: "Ashutosh Taiwal     ",
-      profession: "Cloud Architect  ",
+      src: "/image/teams/ashutosh-taiwal.jpeg",
+      name: "Ashutosh Taiwal",
+      profession: "Tech Leader-Cloud Innovator-Digital Transformator",
+      role: "Core Team Member",
+      experence: "20+",
       social: [
         {
           icon: "linkedin",
@@ -115,16 +131,18 @@ export const Ventures = () => {
         />
       </div>
       <div className="container relative">
-        <Heading className="mb-5 text-center">Team at Skilline</Heading>
+        <Heading className="mb-5 text-center">Squad @ SKILLINE</Heading>
         <Paragraph className="text-center mb-10 md:px-10">
-          {`The heart beats to the rhythm set by a team that runs with us into the future. Together, our team of experts brings with them more than 200 years of combined experience in a variety of areas and are dedicated to achieving excellent outcomes for our clients. Our team professorialists alongside actual work experience on every deal. Type - The variety of capabilities excellent to meet your needs.`}
+          {`The heart beats to the rhythm set by a team that runs with us into the future. At the core of our mission is a team driven by a shared vision for the future of education. With over 200 years of combined expertise, our dedicated professionals and advisors harness their diverse backgrounds to deliver exceptional outcomes for our learners. Together, we’re shaping the future of India with innovation and passion.`}
         </Paragraph>
         <div className=" grid md:grid-cols-2 grid-cols-1 lg:grid-cols-4 gap-10 mt-3">
           {data.map((item: any, index: number) => {
-            const { src, name, profession, social } = item;
+            const {experence, role, src, name, profession, social } = item;
             return (
               <TeamCard
                 key={index}
+                experence={experence}
+                role={role}
                 name={name}
                 profession={profession}
                 src={src}

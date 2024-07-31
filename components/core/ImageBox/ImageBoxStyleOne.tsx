@@ -33,24 +33,17 @@ interface ImageWithTextProps {
 
 export const ImageBoxStyleOne = ({ data }: ImageWithTextProps) => {
   return (
-    <div className="relative" id="about-us">
+    <div className="relative my-10" id="about-us">
       <GridBox
         gap={10}
         className={cn(
-          "container  xl:space-y-0 lg:space-y-0 md:space-y-0 space-y-5 items-center xl:bg-transparent lg:bg-transparent",
+          "container  xl:space-y-0 lg:space-y-0 md:space-y-0 space-y-5  xl:bg-transparent lg:bg-transparent",
           "pt-[0px] pb-[0px]"
         )}
         columns={2}
       >
         <GridBox.GridItem columnMerge={1} className="relative">
-        {/* <Image
-            className="hidden xl:block lg:block md:block absolute xl:left-[-66px] lg:left-[-7px] md:left-[-7px] bottom-[-68px] "
-            src="/images/edumall-shape-grid-dots.png"
-            alt={data.title}
-            width={417}
-            height={371}
-          /> */}
-          {/* <div className="hidden xl:block lg:block md:block w-[200px] h-[200px] bg-primary absolute rounded-[50%] xl:left-[-66px] lg:left-[-7px] md:left-[-7px] bottom-[-68px]"></div> */}
+      
           <Image
             className={`shadow-[0px_0px_20px_0px_rgba(51,51,51,0.1)] rounded-[10px_10px_10px_10px] relative ${data.image.size}`}
             src={data.image.url}
@@ -61,14 +54,14 @@ export const ImageBoxStyleOne = ({ data }: ImageWithTextProps) => {
         </GridBox.GridItem>
         <GridBox.GridItem
           columnMerge={1}
-          className="xl:px-px-[30px] lg:px-[30px] md:px-[30px] space-y-5"
+          className="xl:px-px-[30px] lg:px-[30px] md:px-[30px] space-y-5 flex flex-col justify-around"
         >
           <Heading>{data.title}</Heading>
           <Paragraph>{data.description}</Paragraph>
 
           {data.button && (
             <Button asChild={true}>
-              <Link href={data.button.links} target={data.button.target}>
+              <Link href={data.button.links} target={data.button.target} className="w-[30%]">
                 {data.button.label}
               </Link>
             </Button>

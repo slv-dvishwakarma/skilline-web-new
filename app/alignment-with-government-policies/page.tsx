@@ -4,7 +4,7 @@ import { Pillars } from '@/components/home-v2'
 import Image from 'next/image';
 import React from 'react'
 
-const page = () => {
+const Page = () => {
     const data = [
         {
             title: "Economy",
@@ -23,14 +23,14 @@ const page = () => {
         {
             title: "System",
             description:
-                "The fact that Skilline is conceptualized as an energy repository and educational ecosystem where students can learn in their languages, not only AI but also Gen AI knowledge servers, will allow knowledge base ingestion to be the first of all the dispersed machines. The system-obtained knowledge will occur in sync with the demands of each student, making them well-acquainted with ideas about today's and most future innovative technologies.",
+                "The fact that Skilline is conceptualized as an energy repository and educational ecosystem where students can learn in their languages, not only AI but also Gen AI knowledge servers, will allow knowledge base ingestion to be the first of all the dispersed machines. The system-obtained knowledge will occur in sync with the demands of each student, making them well- acquainted with ideas about today's and most future innovative technologies.",
             image: "/image/images/System.jpeg",
             color: "blue",
         },
         {
             title: "Vibrant Demography Skills",
             description:
-                "The national educational platform that offers bilingual education services caters to different target audiences, including youth, office workers, rural residents, corporations, manufacturing centers, the government, and policymakers. The company is already in partnership with award-winning businesses in Australia and with Australian entrepreneurs who are certified for global expansion.",
+                "The national educational platform that offers bilingual education services caters to different target audiences, including youth, office workers, rural residents, corporations, manufacturing centers, the government, and policymakers. The company is already in partnership with award- winning businesses in Australia and with Australian entrepreneurs who are certified for global expansion.",
             image: "/image/images/Vibrant Demography Skills.jpeg",
             color: "yellow",
         },
@@ -53,13 +53,13 @@ const page = () => {
                         isActive: false,
                     },
                     {
-                        label: "AI-Based Learning Platform",
-                        link: "/ai-based-learning-platform",
+                        label: "Alignment with Government Policies",
+                        link: "/alignment-with-government-policies",
                         isActive: true,
                     },
                 ]}
             >
-                The AI-Based Learning Platform
+                Alignment with Government Policies
             </Breadcrumb>
             <div className='py-10'>
                 <Pillars />
@@ -111,7 +111,7 @@ const page = () => {
         <div className="md:text-center space-y-5 md:px-[10%]">
           <Heading className="">Empower Skill India</Heading>
           <Paragraph className="!whitespace-normal">
-            {`Skilling in an organized, multilingual, and AI-powered method. We provide personalized learning in real-time for everyone, using AI technology and available on all screens. This initiative is aimed at enabling a world-class resource pool of professionals who can not only build solutions but also help provide the essential skills for India's workforce in this digital age, thereby increasing employability and contributing to developing economies.`}
+            {`Skilling in an organized, multilingual, and AI-powered method. We provide personalized learning in real-time for everyone, using AI technology and available on all screens. This initiative is aimed at enabling a world- class resource pool of professionals who can not only build solutions but also help provide the essential skills for India's workforce in this digital age, thereby increasing employability and contributing to developing economies.`}
           </Paragraph>
         </div>
         <div className="flex flex-col md:flex-row pt-[20px] pb-[80px] items-center">
@@ -161,4 +161,4 @@ const page = () => {
     )
 }
 
-export default page
+export default Page;

@@ -41,15 +41,15 @@ export const Course = () => {
     const data: CourseItemtype[] = courseData as CourseItemtype[];
 
     return (
-        <div className="container bg-[#F3F4F6] md:rounded-xl mb-10">
-            <div className="pt-10 md:px-10">
+        <div className="bg-[#F3F4F6] md:rounded-xl mb-10">
+            <div className="container pt-10">
                 <div className="flex items-center flex-col md:flex-row">
                     <div className="md:w-[50%] w-full pb-10">
-                        <Heading className="mb-5">Enroll in our cutting-edge courses to upskill and enhance your career prospects.</Heading>
+                        <Heading className="mb-5">Courses</Heading>
                         <Paragraph>
-                            {`Take advantage of our job-guaranteed training programs, and partner with us or contribute to our mission through donations and volunteering.`}
+                            {`Be a Part of the Skilline Story. We can together build a skilled and empowered India. Skilline is committed to providing support for learners seeking new opportunities, institutions trying to improve the quality of education, and policymakers attempting to make governance more effective.`}
                         </Paragraph>
-                        <div className="pt-4">
+                        <div className="pt-7">
                         <Button asChild={true}>
                             <Link href="/contact-us" target="_blank">Enquiry <span className='ml-2'><FaArrowRightLong /></span></Link>
                         </Button>

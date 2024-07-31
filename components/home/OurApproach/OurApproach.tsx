@@ -2,18 +2,38 @@ import { ImageBox } from "@/components/core";
 import React from "react";
 
 export const OurApproach = () => {
+
+  // const data = {
+  //   image: {
+  //     url: "/image/images/our_approach.jpg",
+  //     width: number;
+  //     height: number;
+  //     size: string;
+  //   }
+  // }
+
   return (
     <div className="md:pb-[10px] md:mt-[30px]">
       <ImageBox
         data={{
-          image: "/image/images/our_approach.jpg",
-          title: "Our Approach",
+          image: {
+            url: "/image/images/our_approach.jpg",
+            width: 1024,
+            height: 1024,
+            size: "h-[400px] object-cover"
+          },
+          title: "Our Impact",
           description:
-            "With the help of AI and gamification, we offer a unique learning journey personalized to each learner's desire and need. Our platform provides high-quality education in multiple Indian languages, considering regional cultures. ",
-          additional_description: "With a unique competency-driven model tailored to career experience and confidence, we are new learning technology innovators.",
-            style: "style-2",
+            "Skilline has transformed lives by making people from diverse backgrounds job-ready. Our graduates are employed by leading companies in Singapore and the US, including NYSE-listed firms. Indian startups and million-dollar clients are also using our skilled professionals in their projects, showcasing the real-world impact and success of our Education programs.",
+            style: "style-1",
+            button: {
+              label: "Discover More",
+              links: "/our-impact",
+              target: "_blank"
+            }
         }}
-        type="style-2" 
+        type="style-1"
+        imageAlign="left"
       />
     </div>
   );

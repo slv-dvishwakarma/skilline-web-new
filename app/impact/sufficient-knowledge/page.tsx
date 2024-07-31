@@ -63,8 +63,9 @@ const SufficientKnowledge = () => {
         </div>
         <div className="flex py-10 items-center md:flex-row flex-col-reverse gap-10 md:gap-0">
           <div className="md:w-1/2 w-full">
-            <div className="space-y-10  md:pr-[50px]">
+            <div className="space-y-5  md:pr-[50px]">
               <Heading>The Importance of Essential Knowledge</Heading>
+              <Paragraph>The emphasis is on how one obtains economic independence at a micro level as well as why economic systems such as socialism, communism, and sovereign states are ineffective for a macro economy.</Paragraph>
               <UnorderedList>
                 {[
                   "Foundation for Advanced Learning",

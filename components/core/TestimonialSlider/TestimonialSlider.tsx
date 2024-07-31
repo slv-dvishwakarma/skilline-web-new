@@ -6,6 +6,8 @@ import { Heading } from '../Heading';
 import { Paragraph } from '../Paragraph';
 import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io";
 import { FaStar } from "react-icons/fa";
+import { FaQuoteLeft } from "react-icons/fa";
+import { FaQuoteRight } from "react-icons/fa";
 
 type QuoteItem = {
     rating: number;
@@ -105,14 +107,15 @@ export const TestimonialSlider = ({ heading, description, quote }: TestimonialIt
                                         className="flex h-full flex-col justify-between shadow-sm sm:p-8 lg:py-6 lg:px-6 xl:py-6 xl:px-6 md:py-6 md:px-6 p-6 rounded-[15px]"
                                     >
                                         <div>
+                                            
+                                            <div className="mt-4">
+                                                <blockquote className='flex space-x-2 text-slate-800'><FaQuoteLeft /><Heading className='md:text-[25px]'>{item.title}</Heading><FaQuoteRight /></blockquote>
+                                                <Paragraph>{item.description}</Paragraph>
+                                            </div>
                                             <div className="flex gap-0.5 text-[#3750e0]">
                                                 {[...Array(item.rating)].map((_, index) => (
                                                     <span key={index}><FaStar /></span>
                                                 ))}
-                                            </div>
-                                            <div className="mt-4">
-                                                <Heading className='md:text-[25px]'>{item.title}</Heading>
-                                                <Paragraph>{item.description}</Paragraph>
                                             </div>
                                         </div>
                                         <footer className="mt-4 text-sm font-medium text-gray-700 sm:mt-6">

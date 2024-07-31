@@ -9,7 +9,6 @@ import {
   GuidingPrinciple,
   JoinUs,
   OurRoadmap,
-  Ventures,
   Blog,
   Courses,
   Contact,
@@ -29,7 +28,6 @@ export default function Home() {
       <Pillars />
       <Stories />
       <OurRoadmap />
-      <Ventures />
       <Courses />
       <Blog />
       <Contact />
