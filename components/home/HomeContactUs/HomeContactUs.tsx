@@ -27,7 +27,7 @@ export const HomeContactUs = () => {
     <div className="py-10">
       <Heading className="text-center">Contact Us</Heading>
       <div className="mt-8">
-      <Card className="md:p-10 p-5 w-6/12 m-auto">
+      <Card className="md:p-10 p-5 md:w-6/12 w-full m-auto">
       
               <Heading className="mb-8 text-xl font-semibold text-gray-800 dark:text-neutral-200">
                 Send a Message

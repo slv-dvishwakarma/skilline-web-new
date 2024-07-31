@@ -87,7 +87,7 @@ export const HomePartnershipsLogos = () => {
         <div className='bg-[#FFF8F3] mb-10'>
         <div className='partnershiplogos container text-center py-[50px] space-y-10 '>
             <Heading className='text-center md:leading-[0px]'>{data.heading}</Heading>
-        <GridBox columns={6} gap={10}>
+        <GridBox columns={2} desktop={6} laptop={6} tablet={4} gap={10} className='md:space-y-0 space-y-5'>
             {data.images.map((item, index) => (
                 <GridBox.GridItem key={index} className="shadow-[rgba(99,99,99,0.2)_0px_2px_8px_0px] rounded-[15px] h-[130px] bg-white">
                     <Image

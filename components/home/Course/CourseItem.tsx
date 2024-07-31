@@ -53,7 +53,7 @@ cousedescription,
               <Paragraph className=" font-[300]  proxima p-0 m-0 line-clamp-3 md:line-clamp-4 ">
                 {cousedescription}
               </Paragraph>
-              <div className="py-6 border-r-0 border-b-0 text-center md:w-[35%]">
+              <div className="py-6 border-r-0 border-b-0 text-center md:w-[40%]">
                 <p
                   // href={link.url}
                   // target={link.target}

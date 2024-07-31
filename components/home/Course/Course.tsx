@@ -51,7 +51,7 @@ export const Course = () => {
                         </Paragraph>
                         <div className="pt-7">
                         <Button asChild={true}>
-                            <Link href="/contact-us" target="_blank">Enquiry <span className='ml-2'><FaArrowRightLong /></span></Link>
+                            <Link href="/contact-us" target="_self">Enquiry <span className='ml-2'><FaArrowRightLong /></span></Link>
                         </Button>
                         </div>
                     </div>
