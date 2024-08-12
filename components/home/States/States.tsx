@@ -17,12 +17,12 @@ export const States = () => {
         {
             icon: "/image/icon/3.png",
             count: "30+",
-            label: "Internships Provided To Rural Youth",
+            label: "Rural Talent Internships",
         },
         {
             icon: "/image/icon/4.png",
             count: "20+",
-            label: "Company Partnerships",
+            label: "Corporate Partnerships",
         }
     ]
 

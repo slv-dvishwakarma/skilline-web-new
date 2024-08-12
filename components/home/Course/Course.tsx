@@ -47,7 +47,7 @@ export const Course = () => {
                     <div className="md:w-[50%] w-full pb-10">
                         <Heading className="mb-5">Courses</Heading>
                         <Paragraph>
-                            {`Be a Part of the Skilline Story. We can together build a skilled and empowered India. Skilline is committed to providing support for learners seeking new opportunities, institutions trying to improve the quality of education, and policymakers attempting to make governance more effective.`}
+                            {`Be a Part of the Skilline Story. Together, we can build a skilled and empowered India. Skilline is committed to supporting learners seeking new opportunities, institutions aiming to improve education quality, and policymakers working to enhance governance effectiveness.`}
                         </Paragraph>
                         <div className="pt-7">
                         <Button asChild={true}>

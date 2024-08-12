@@ -11,7 +11,7 @@ type HeadingItem = {
 
 type HeadingBtn = {
     title: string;
-    button: HeadingItem;
+    button?: HeadingItem;
 }
 
 export const HeadingBtn = ({ title, button }: HeadingBtn) => {
@@ -19,9 +19,11 @@ export const HeadingBtn = ({ title, button }: HeadingBtn) => {
         <div className='bg-[#F4F9FF] my-5'>
         <div className='text-center md:w-[93%] w-full m-auto space-y-8 py-10'>
             <Heading className='text-pretty md:text-[38px] md:leading-[50px]'>{title}</Heading>
+            {button ? (
             <Button asChild={true}>
-                <Link href={button.url} target={button.target}>{button.label}</Link>
+                <Link href={button?.url || ""} target={button?.target}>{button?.label}</Link>
             </Button>
+            ): (null)}
         </div>
         </div>
     )

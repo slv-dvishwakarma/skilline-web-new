@@ -3,17 +3,12 @@ import React from 'react'
 
 export const Regionallanguages = () => {
     const data = {
-        title: "Personalized, skill based and job ready, training supporting Atmanirbhar Bharat and make in india",
-        button: {
-            label: "Read More",
-            url: "/our-impact",
-            target: "_self" as "_self",
-        }
+        title: "Unlocking Potential: We use AI to provide personalized learning and job skills in India, in local languages and suited to needs, to help our country grow and prosper."
     }
 
     return (
         <HeadingBtn
-            title={data.title} button={data.button}
+            title={data.title}
         />
     )
 }

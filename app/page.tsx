@@ -38,24 +38,28 @@ export default function Home() {
       {/* <OurVision /> */}
       <States />
       <About />
-      <OurStory />
+      {/* <OurStory /> */}
       <div className="pt-[30px]">
-      <Ventures />
-      </div>
-      <LearningPlatform />
       <GuidingPrinciple />
+      </div>
       <div className="pt-10">
       <Course />
       </div>
       <Testimonial />
-      <Empowering />
-      
       <div className="pt-10">
       <Stories />
       </div>
-    <div className="xl:block lg:block md:block hidden">
+      <div className="pt-[30px]">
+      <Ventures />
+      </div>
+      <div className="xl:block lg:block md:block hidden">
     <RoadMap />
     </div>
+
+      <Empowering />
+      
+      
+
       <div className="xl:hidden lg:hidden md:hidden block">
       <OurRoadmap />
       </div>

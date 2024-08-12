@@ -3,15 +3,6 @@ import React from "react";
 
 export const OurApproach = () => {
 
-  // const data = {
-  //   image: {
-  //     url: "/image/images/our_approach.jpg",
-  //     width: number;
-  //     height: number;
-  //     size: string;
-  //   }
-  // }
-
   return (
     <div className="md:pb-[10px] md:mt-[30px]">
 
@@ -24,9 +15,9 @@ export const OurApproach = () => {
             size: "h-[400px] object-cover"
           },
           title: "Our Impact",
-          description: `Skilline has transformed lives by making people from diverse backgrounds job-ready. Our graduates are employed by leading companies in Singapore and the US, including NYSE-listed firms. Indian startups and million-dollar clients are also using our skilled professionals in their projects, showcasing the real-world impact and success of our AI-driven training platform.`,
+          description: `Changing Lives: Skilline prepares people from diverse backgrounds for the job market. Our graduates work with top companies in Singapore and the US, including NYSE-listed firms. Indian startups and million-dollar clients also hire our professionals, showcasing the real-world impact of our education programs.`,
           button: {
-            label: "Discover More",
+            label: "Get The Full Story",
             url: "/our-impact",
             target: "_self"
           }

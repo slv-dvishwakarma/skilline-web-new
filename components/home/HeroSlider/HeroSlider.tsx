@@ -8,7 +8,7 @@ export const HeroSlider = () => {
     {
       preTitle: "",
       title: "Empowering India's Future",
-      description: `Skilline aims to revolutionize Bharat's education landscape with an affordable, AI-driven platform.`,
+      description: `Skilline is revolutionizing Bharat's education landscape with an affordable, AI-driven platform.`,
       image: {
         src: "/image/images/slider-5.jpg",
         width: 1015,
@@ -18,8 +18,8 @@ export const HeroSlider = () => {
     },
     {
       preTitle: "",
-      title: "Atma Nirbhar Bharat",
-      description: `Narrowing skill gaps, empowering rural youth, and advancing 'Aatmanirbhar Bharat' objectives.`,
+      title: "Aatmanirbhar Bharat",
+      description: `Narrowing skill gaps, empowering rural youth, and advancing the objectives of 'Aatmanirbhar Bharat'.`,
 
       image: {
         src: "/revision/slider_2.png",
@@ -30,8 +30,8 @@ export const HeroSlider = () => {
     },
     {
       preTitle: "",
-      title: "Industry Ready Skills",
-      description: `Creating 100% job-guaranteed training courses in technology, manufacturing, and high-demand sectors.`,
+      title: "Industry-Ready Skills",
+      description: `Delivering 100% job-guaranteed training in technology, manufacturing, and high-demand sectors.`,
       image: {
         src: "/image/images/Industry Ready skill.jpg",
         width: 1015,
@@ -42,7 +42,7 @@ export const HeroSlider = () => {
     {
       preTitle: "",
       title: "Empowering Individual Potential",
-      description: `Our vision is to cultivate personalized learning experiences that unleash individual potential, fostering nationwide prosperity and growth.`,
+      description: `Personalized learning to unleash individual growth and nationwide prosperity.`,
       image: {
         src: "/image/images/empowering-india-fututre.jpg",
         width: 1015,

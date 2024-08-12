@@ -41,9 +41,9 @@ export const Stories = () => {
       <div className="pt-10 md:px-10">
         <div className="flex items-center flex-col md:flex-row">
           <div className="md:w-[50%] w-full pb-10">
-            <Heading className="mb-5">Success Stories</Heading>
+            <Heading className="mb-5">Our Success Story</Heading>
             <Paragraph>
-              {`Skilline was founded to address the critical skill shortages in India, particularly in rural areas. Starting with offline courses, we have transformed countless careers, and now, we are harnessing the power of AI to expand our reach and impact.`}
+              {`Skilline was founded to address critical skill shortages in India, particularly in rural areas. Starting with offline courses, we have transformed countless careers. Now, we are harnessing the power of AI to expand our reach and impact`}
             </Paragraph>
           </div>
           <div className="md:w-[50%] w-full relative">

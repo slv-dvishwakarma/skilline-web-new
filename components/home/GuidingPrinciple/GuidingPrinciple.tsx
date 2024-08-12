@@ -6,8 +6,8 @@ import React from "react";
 
 export const GuidingPrinciple = () => {
   const data = {
-    title: "How It Works",
-    description: "Our platform utilizes AI to create personalized learning pathways, adapting to each learner's style and pace. This ensures maximum engagement and effective learning outcomes. utilse above contents (AI based learning platform)",
+    title: "How Our AI-Based Learning Platform Works",
+    description: "Skilline's AI-based self-learning platform offers personalized education tailored to market demands, ensuring accessibility, affordability, and job guarantees for all. Students can choose their own language and enjoy gamified learning experiences. Our platform utilizes AI to create customized learning pathways that adapt to each learner's style and pace, ensuring maximum engagement and effective outcomes.",
     image: "/image/images/How It Works.jpg",
   };
 

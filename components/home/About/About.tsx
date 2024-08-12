@@ -9,10 +9,10 @@ export const About = () => {
         height: 1024,
         size: ""
       },
-      title: "About Us",
-      description: `Welcome to Skilline, the revolutionary and cost-effective gamified edu platform under development. We design innovative, AI-driven training programs for industries like tech, manufacturing and other high growth sectors. Who We Are - Our aim is to be a one stop solution for rural youth, job seekers, corporates and educational institutions focusing on niche resources and skill development.`,
+      title: "Our Mission",
+      description: `Skilline's mission is to revolutionize Bharat's education by providing affordable, AI-driven, personalized training that bridges skill gaps and empowers job seekers, corporate employees, and rural youth. We aim to enhance education accessibility through collaboration with corporates and educational institutions, focusing on niche resources and skill development. Our goal is to make learning engaging and effective, particularly in tech and manufacturing, to foster growth, create fair opportunities, and drive nationwide prosperity.`,
       button: {
-        label: "Get the full Story",
+        label: "Aligned with Govt Goals",
         url: "/about",
         target: "_self" as "_self",
       }

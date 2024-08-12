@@ -131,9 +131,9 @@ export const Ventures = () => {
         />
       </div>
       <div className="container relative">
-        <Heading className="mb-5 text-center">Squad @ SKILLINE</Heading>
+        <Heading className="mb-5 text-center">The Squad at SKILLINE</Heading>
         <Paragraph className="text-center mb-10 md:px-10">
-          {`The heart beats to the rhythm set by a team that runs with us into the future. At the core of our mission is a team driven by a shared vision for the future of education. With over 200 years of combined expertise, our dedicated professionals and advisors harness their diverse backgrounds to deliver exceptional outcomes for our learners. Together, we’re shaping the future of India with innovation and passion.`}
+          {`Our team of professionals and advisors, with over 200 years of combined expertise, is dedicated to shaping India’s education future. With a shared vision and diverse backgrounds, we deliver exceptional outcomes and innovation for our learners.`}
         </Paragraph>
         <div className=" grid md:grid-cols-2 grid-cols-1 lg:grid-cols-4 gap-10 mt-3">
           {data.map((item: any, index: number) => {
